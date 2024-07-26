@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote>Hello {}, My Owner 🔍<a href=https://t.me/RoronoaZo0ro</a></blockquote>
+    START_TXT = """<b><blockquote>Hello {}, <a href='https://t.me/RoronoaZo0ro'>My Owner 🔍</a></blockquote>
     
 💋I'am Movies Finder Bot 
 🔋Powered by @RoronoaZo0ro 
