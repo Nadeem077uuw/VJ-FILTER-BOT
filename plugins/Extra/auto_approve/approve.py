@@ -72,7 +72,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                         InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                     ],[
-                        InlineKeyboardButton('✇ Anime Channel, url=CHNL_LNK)
+                        InlineKeyboardButton('✇ Anime Channel', url=CHNL_LNK)
                     ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
